@@ -1,0 +1,100 @@
+.wrapper:where(.astro-DGCEZM4M) {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.theme-switcher:where(.astro-DGCEZM4M) {
+  top: 1em;
+  right: 1em;
+  font-weight: 700;
+  padding: 5px;
+  z-index: '3' !important;
+}
+.konata:where(.astro-DGCEZM4M) {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  font-weight: 700;
+  z-index: -1;
+}
+pre:where(.astro-DGCEZM4M) {
+  background: silver !important;
+  box-shadow: none !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 12px 8px !important;
+  color: #000 !important;
+}
+.window:where(.astro-DGCEZM4M) {
+  font-size: 11.5px !important;
+}
+body {
+  margin-right: 0;
+  margin-left: 0;
+  background: #00807f;
+}
+#draggable:where(.astro-DGCEZM4M) {
+  cursor: move;
+}
+#fake-icon:where(.astro-DGCEZM4M) {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  line-height: 12px;
+  margin: 0 !important;
+  align-items: center;
+}
+#scrollable:where(.astro-DGCEZM4M) {
+  max-height: 300px;
+  overflow-y: auto;
+}
+@keyframes neonBlink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+pre:where(.astro-DGCEZM4M) {
+  font-family: monospace;
+  font-size: 16px;
+  color: #9d04cc;
+  text-shadow: 0 0 10px #9d04cc;
+  position: relative;
+}
+#clock:where(.astro-DGCEZM4M) {
+  font-family: monospace;
+  color: #9d04cc;
+  text-shadow: 0 0 10px #9d04cc;
+  position: relative;
+}
+#online:where(.astro-DGCEZM4M) {
+  font-family: monospace;
+  color: #198009;
+  text-shadow: 0 0 10px #198009;
+  position: relative;
+}
+.cornerimage:where(.astro-DGCEZM4M) {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.contain:where(.astro-DGCEZM4M) {
+  display: flex;
+  justify-content: space-around;
+}
+.containrow:where(.astro-DGCEZM4M) {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
